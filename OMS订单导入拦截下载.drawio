@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T09:11:45.556Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="mWJctXgiVUBn5aVxaI-2" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-04T09:20:30.572Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="nxBNr3ieZNIq-8igXwOX" version="14.2.9" type="github">
   <diagram id="itdqSfkn_E8UObM0tBDS" name="Page-1">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,14 +42,8 @@
         <mxCell id="0rGHmdVna2pGi717BPub-11" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;根据订单状态判断&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="520" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="chdYQMmzAxbbB_zhWE5N-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0rGHmdVna2pGi717BPub-13" target="0rGHmdVna2pGi717BPub-23" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="300" y="990" />
-              <mxPoint x="400" y="990" />
-              <mxPoint x="400" y="1000" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="bhZt38ZUU52Js0jRalN7-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0rGHmdVna2pGi717BPub-13" target="bhZt38ZUU52Js0jRalN7-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0rGHmdVna2pGi717BPub-13" value="待审核" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="240" y="640" width="80" height="40" as="geometry" />
@@ -221,7 +215,7 @@
         <mxCell id="chdYQMmzAxbbB_zhWE5N-37" value="&lt;span&gt;通过批量查询订单号接口&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="400" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="chdYQMmzAxbbB_zhWE5N-46" value="异常数据存到redis中 使用uuid+##" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="chdYQMmzAxbbB_zhWE5N-46" value="异常数据存到内存中" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="827" y="1520" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="chdYQMmzAxbbB_zhWE5N-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="chdYQMmzAxbbB_zhWE5N-56" target="chdYQMmzAxbbB_zhWE5N-33" edge="1">
@@ -238,6 +232,26 @@
         </mxCell>
         <mxCell id="bhZt38ZUU52Js0jRalN7-1" value="根据业务身份调用crm黑名单还是业务中台黑名单" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="760" y="1120" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bhZt38ZUU52Js0jRalN7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bhZt38ZUU52Js0jRalN7-2" target="0rGHmdVna2pGi717BPub-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bhZt38ZUU52Js0jRalN7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bhZt38ZUU52Js0jRalN7-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bhZt38ZUU52Js0jRalN7-2" value="判断是否鹤礼单" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="770" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bhZt38ZUU52Js0jRalN7-5" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="790" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bhZt38ZUU52Js0jRalN7-6" value="调用作废优惠券接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1000" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bhZt38ZUU52Js0jRalN7-9" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="900" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
