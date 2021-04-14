@@ -1,1 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T02:42:59.932Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" version="14.5.8" etag="GGPkhxB63FV9snkocNJE" type="github"><diagram id="u-13purKZ61zyoSVEXyQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-14T06:15:07.879Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="2U2wPrTvF03_zA_o7prY" version="14.5.8" type="github">
+  <diagram id="u-13purKZ61zyoSVEXyQ" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="N0vTpLCHAiK_CN8hGvsW-1" target="N0vTpLCHAiK_CN8hGvsW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N0vTpLCHAiK_CN8hGvsW-3" target="N0vTpLCHAiK_CN8hGvsW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N0vTpLCHAiK_CN8hGvsW-3" target="N0vTpLCHAiK_CN8hGvsW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-3" value="前置校验openId" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="130" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-5" value="return" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="145" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N0vTpLCHAiK_CN8hGvsW-6" target="N0vTpLCHAiK_CN8hGvsW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-6" value="调CRM会员获取会员信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="240" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N0vTpLCHAiK_CN8hGvsW-7" target="N0vTpLCHAiK_CN8hGvsW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-7" value="通过openId和渠道查询会员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="320" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N0vTpLCHAiK_CN8hGvsW-8" target="N0vTpLCHAiK_CN8hGvsW-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="N0vTpLCHAiK_CN8hGvsW-8" target="N0vTpLCHAiK_CN8hGvsW-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-8" value="判断是否新用户" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="410" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N0vTpLCHAiK_CN8hGvsW-9" target="N0vTpLCHAiK_CN8hGvsW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-9" value="保存会员信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N0vTpLCHAiK_CN8hGvsW-10" target="N0vTpLCHAiK_CN8hGvsW-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-10" value="缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-12" value="crmId、&lt;br&gt;memberId、&lt;br&gt;unionId、status" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="585" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-13" value="如果crm内部员工离职需要把status修改为会员同步给星妈会" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="640" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="N0vTpLCHAiK_CN8hGvsW-16" target="N0vTpLCHAiK_CN8hGvsW-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="690" />
+              <mxPoint x="360" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-16" value="更新会员信息（crmId）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="595" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N0vTpLCHAiK_CN8hGvsW-17" target="N0vTpLCHAiK_CN8hGvsW-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-17" value="更新缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N0vTpLCHAiK_CN8hGvsW-18" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="720" width="90" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
