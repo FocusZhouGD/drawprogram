@@ -1,1 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2021-04-14T06:16:49.804Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" version="14.5.8" etag="b1TjOYzZ75C5vrYbjs_v" type="github"><diagram id="Iv0FId4ace_RtUORbLiF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-14T11:21:54.506Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="axC_CtRykpdvVZpdFhH0" version="14.5.8" type="github">
+  <diagram id="Iv0FId4ace_RtUORbLiF" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IH8jTVKlM_f73UNPmUqe-2" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=30;" vertex="1" parent="1">
+          <mxGeometry x="70" y="50" width="20" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="IH8jTVKlM_f73UNPmUqe-3" value="LoginController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="150" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="IH8jTVKlM_f73UNPmUqe-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="230" y="160" width="10" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="IH8jTVKlM_f73UNPmUqe-5" value="login" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="IH8jTVKlM_f73UNPmUqe-4" parent="1" source="IH8jTVKlM_f73UNPmUqe-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IH8jTVKlM_f73UNPmUqe-6" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="IH8jTVKlM_f73UNPmUqe-4" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="531" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IH8jTVKlM_f73UNPmUqe-13" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;1.1 getByAuthoKeyMemberCrmDTO&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="170" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IH8jTVKlM_f73UNPmUqe-19" value="MemberCrmProvider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="40" width="130" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="IH8jTVKlM_f73UNPmUqe-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="200" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IH8jTVKlM_f73UNPmUqe-21" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="IH8jTVKlM_f73UNPmUqe-20" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IH8jTVKlM_f73UNPmUqe-22" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="IH8jTVKlM_f73UNPmUqe-20" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IH8jTVKlM_f73UNPmUqe-23" value="会员基本信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="250" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IH8jTVKlM_f73UNPmUqe-24" value="MemberUnionInfoProvider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="681" y="40" width="159" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="IH8jTVKlM_f73UNPmUqe-25" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="40" width="120" height="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
