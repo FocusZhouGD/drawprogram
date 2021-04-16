@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T06:51:39.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="LPfu5ZheX0okc7H_ukIh" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T07:07:35.211Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="slWwz3LmOovReKl0j9hC" version="14.6.0" type="github">
   <diagram id="BbQrq-RRXRQbmg06gl8p" name="Page-1">
     <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,24 +7,36 @@
         <mxCell id="sJMVlEfSglSqZCgznA-z-3" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="150" y="80" width="20" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="sJMVlEfSglSqZCgznA-z-4" value="中台物流" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="250" y="80" width="140" height="150" as="geometry" />
+        <mxCell id="sJMVlEfSglSqZCgznA-z-4" value="星妈优选商家端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="250" y="80" width="140" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="sJMVlEfSglSqZCgznA-z-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="sJMVlEfSglSqZCgznA-z-4">
-          <mxGeometry x="65" y="70" width="10" height="80" as="geometry" />
+        <mxCell id="sJMVlEfSglSqZCgznA-z-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="sJMVlEfSglSqZCgznA-z-4">
+          <mxGeometry x="60" y="70" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="sJMVlEfSglSqZCgznA-z-6" value="request" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="sJMVlEfSglSqZCgznA-z-5" parent="1" source="sJMVlEfSglSqZCgznA-z-3">
-          <mxGeometry x="0.0354" y="10" relative="1" as="geometry">
-            <mxPoint x="230" y="150" as="sourcePoint" />
-            <mxPoint as="offset" />
+        <mxCell id="sJMVlEfSglSqZCgznA-z-11" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="sJMVlEfSglSqZCgznA-z-9" parent="1" target="sJMVlEfSglSqZCgznA-z-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="226" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sJMVlEfSglSqZCgznA-z-7" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="sJMVlEfSglSqZCgznA-z-5" parent="1" target="sJMVlEfSglSqZCgznA-z-3">
+        <mxCell id="sJMVlEfSglSqZCgznA-z-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="470" y="160" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sJMVlEfSglSqZCgznA-z-13" value="getDeliveryCompanyList" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="sJMVlEfSglSqZCgznA-z-12" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="226" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="240" y="226" />
-            </Array>
+            <mxPoint x="340" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJMVlEfSglSqZCgznA-z-14" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="sJMVlEfSglSqZCgznA-z-12" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJMVlEfSglSqZCgznA-z-15" value="中台物流" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="430" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="sJMVlEfSglSqZCgznA-z-10" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="sJMVlEfSglSqZCgznA-z-9" parent="1" source="sJMVlEfSglSqZCgznA-z-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="150" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
