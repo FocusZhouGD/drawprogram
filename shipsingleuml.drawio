@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T06:54:32.209Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" version="14.6.0" etag="VIlbEeFc2JZxbctzyyS_" type="github"><diagram id="4oX03RE1F-myrDFDmWnT">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-16T07:01:15.005Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="B-Nk-XSH-JN-W9M7xiTZ" version="14.6.0" type="github">
+  <diagram id="4oX03RE1F-myrDFDmWnT" name="Page-1">
+    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VzxHG7hlaMNUkG1jvMgi-1" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="40" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="VzxHG7hlaMNUkG1jvMgi-2" value="星妈优选商家端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="310" y="40" width="100" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="VzxHG7hlaMNUkG1jvMgi-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="VzxHG7hlaMNUkG1jvMgi-2">
+          <mxGeometry x="40" y="80" width="20" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="VzxHG7hlaMNUkG1jvMgi-4" value="request" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="VzxHG7hlaMNUkG1jvMgi-3" parent="1" source="VzxHG7hlaMNUkG1jvMgi-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VzxHG7hlaMNUkG1jvMgi-5" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="VzxHG7hlaMNUkG1jvMgi-3" parent="1" target="VzxHG7hlaMNUkG1jvMgi-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="196" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VzxHG7hlaMNUkG1jvMgi-6" value="履约中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="VzxHG7hlaMNUkG1jvMgi-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="VzxHG7hlaMNUkG1jvMgi-6">
+          <mxGeometry x="40" y="90" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VzxHG7hlaMNUkG1jvMgi-8" value="request" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="VzxHG7hlaMNUkG1jvMgi-7" parent="1">
+          <mxGeometry x="0.2222" y="10" relative="1" as="geometry">
+            <mxPoint x="380" y="130" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VzxHG7hlaMNUkG1jvMgi-9" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="VzxHG7hlaMNUkG1jvMgi-7" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="206" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
