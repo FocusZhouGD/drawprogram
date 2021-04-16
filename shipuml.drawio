@@ -1,1 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T06:47:58.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" version="14.6.0" etag="GLwauJmpwz8g1BXtnKHh" type="github"><diagram id="BbQrq-RRXRQbmg06gl8p">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-16T06:51:39.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="LPfu5ZheX0okc7H_ukIh" version="14.6.0" type="github">
+  <diagram id="BbQrq-RRXRQbmg06gl8p" name="Page-1">
+    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sJMVlEfSglSqZCgznA-z-3" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="80" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="sJMVlEfSglSqZCgznA-z-4" value="中台物流" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="250" y="80" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sJMVlEfSglSqZCgznA-z-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="sJMVlEfSglSqZCgznA-z-4">
+          <mxGeometry x="65" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sJMVlEfSglSqZCgznA-z-6" value="request" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="sJMVlEfSglSqZCgznA-z-5" parent="1" source="sJMVlEfSglSqZCgznA-z-3">
+          <mxGeometry x="0.0354" y="10" relative="1" as="geometry">
+            <mxPoint x="230" y="150" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sJMVlEfSglSqZCgznA-z-7" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="sJMVlEfSglSqZCgznA-z-5" parent="1" target="sJMVlEfSglSqZCgznA-z-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="226" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="226" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
