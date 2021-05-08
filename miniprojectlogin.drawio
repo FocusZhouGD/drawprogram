@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-08T06:37:27.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="-We8eVc1XKWa2FUHuMDZ" version="14.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-08T06:42:11.269Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="3gSWZwYIC0pb_nY6tj3Q" version="14.6.1" type="github">
   <diagram id="Ck79b30tSz4ZQj37qoaF" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,6 +56,15 @@
         </mxCell>
         <mxCell id="lZHpw7mmfWlZTTs1Uvj3-15" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="510" y="310" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lZHpw7mmfWlZTTs1Uvj3-19" value="小程序用户login" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lZHpw7mmfWlZTTs1Uvj3-20" value="两表联查 通过渠道" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="320" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lZHpw7mmfWlZTTs1Uvj3-21" value="可能存在老用户和现在的unionid一样" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="65" y="380" width="210" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
