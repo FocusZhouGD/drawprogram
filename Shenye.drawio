@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-28T09:55:49.690Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="N_bR-5oPCUbHai_jYq00" version="14.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-31T02:31:10.407Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="s-lmCVh3coBSaKh7607w" version="14.7.2" type="github">
   <diagram id="KAi75ffr3LW3WgSYukdx" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,11 +46,14 @@
         <mxCell id="FDsz7og_MnK8PUFmMtjH-14" value="继承AbstractShenyuPlugin里面对选择和选择器规则做适配，但你的handleSelectorIfNull和handleRuleIfNull方法不用重写；第二种就是直接实现ShenyuPlugin就行，在里面用JwtConfig的filterPath来过滤。第一种是自定义流量匹配，第二种是全流量匹配匹配。" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1090" y="1290" width="590" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="JiSTBEjnSWMk_e52cKWq-1" value="WebClentPlugin#execute(ServerWebExchange,ShenyuPluginChain) 发出请求处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JiSTBEjnSWMk_e52cKWq-1" value="WebClentPlugin#execute(ServerWebExchange,ShenyuPluginChain) 发出请求处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="1200" width="630" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JiSTBEjnSWMk_e52cKWq-2" value="WebClentResponsePlugin#execute()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JiSTBEjnSWMk_e52cKWq-2" value="WebClentResponsePlugin#execute()" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="1360" width="640" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a-vl4COEq5bbQWR3xxc--1" value="false:SignPlugin&lt;br&gt;WafPlugin&lt;br&gt;RateLimiterPlugin&lt;br&gt;ContextPathPlugin&lt;br&gt;RewritePlugin&lt;br&gt;RedirectPlugin&lt;br&gt;HystrixPlugin&lt;br&gt;Resilience4JPlugin&lt;br&gt;SentinelPlugin&lt;br&gt;LoggingPlugin&lt;br&gt;DividePlugin&lt;br&gt;WebClientPlugin&lt;br&gt;WebSocketPlugin&lt;br&gt;MonitorPlugin&lt;br&gt;WebClientResponsePlugin&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;true: ParamTransfromPlugin&lt;br&gt;TarsPlugin&lt;br&gt;GrpcPlugin&lt;br&gt;SofaPlugin&lt;br&gt;AlibabaDubboPlugin&lt;br&gt;TarsResponsePlugin&lt;br&gt;GrpcResponsePlugin&lt;br&gt;SofaResponsePlugin&lt;br&gt;DubboResponsePlugin&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="560" y="301" width="170" height="430" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
