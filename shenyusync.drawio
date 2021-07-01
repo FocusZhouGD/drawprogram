@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T06:41:43.378Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" version="14.8.2" etag="NrRJ3EOGdRKgLtvwrQ5W" type="github"><diagram id="R3POOlBwRZHuQKlPPnwb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-01T07:32:44.874Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="Qx-lvZOwvJSOWv1t7rIR" version="14.8.2" type="github">
+  <diagram id="R3POOlBwRZHuQKlPPnwb" name="Page-1">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-1" value="admin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-2" value="DataSyncConfiguration#启动类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-3" value="配置类决定是否启用那个监听器&lt;br&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-4" value="判断是否启用哪个监听器" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-5" value="ZkDataChangedListener" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-6" value="ZkDataInit #初始化数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-7" value="shenyu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="80" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
