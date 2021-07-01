@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T11:39:28.315Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="CWLq3DSMcUY8xr2_4q1b" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-01T11:49:08.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="TdoohAypgoeQyKD0knVN" version="14.8.2" type="github">
   <diagram id="R3POOlBwRZHuQKlPPnwb" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,6 +42,30 @@
         </mxCell>
         <mxCell id="HgMxoDShnDDKPaFFmQN0-13" value="ApplicationEventPublisher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="1000" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-14" value="watchData（）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="680" y="600" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-15" value="watchAppAuth（）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="600" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-16" value="watchMetaData（）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="600" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-17" value="watchAll（pluginName）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="720" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="720" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-19" value="watchPlugin(pluginName)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="840" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-20" value="watchSelector(pluginName)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="940" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-21" value="watchRule(pluginName)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1040" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
