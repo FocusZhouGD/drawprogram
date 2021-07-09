@@ -1,71 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T11:49:08.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="TdoohAypgoeQyKD0knVN" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-09T07:38:35.659Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="gmir4SIDubDGI-MTDojD" version="14.8.3" type="github">
   <diagram id="R3POOlBwRZHuQKlPPnwb" name="Page-1">
-    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1865" dy="1717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HgMxoDShnDDKPaFFmQN0-1" value="admin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="80" width="160" height="60" as="geometry" />
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-1" value="admin" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="-70" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HgMxoDShnDDKPaFFmQN0-2" value="DataSyncConfiguration#启动类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="200" width="160" height="60" as="geometry" />
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-2" value="DataSyncConfiguration#启动类" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="80" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HgMxoDShnDDKPaFFmQN0-3" value="配置类决定是否启用那个监听器&lt;br&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry y="210" width="40" height="20" as="geometry" />
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-3" value="配置类决定是否启用那个监听器&lt;br&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry y="70" width="40" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="HgMxoDShnDDKPaFFmQN0-4" value="判断是否启用哪个监听器" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="320" width="160" height="100" as="geometry" />
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-4" value="判断是否启用哪个监听器" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="200" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="HgMxoDShnDDKPaFFmQN0-5" value="ZkDataChangedListener" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="480" width="160" height="60" as="geometry" />
+        <mxCell id="0d-qnT31Auj9CADLTtod-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="HgMxoDShnDDKPaFFmQN0-5" target="0d-qnT31Auj9CADLTtod-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HgMxoDShnDDKPaFFmQN0-6" value="ZkDataInit #初始化数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-5" value="ZookeeperDataChangedListener" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="480" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-6" value="ZkDataInit #初始化数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="600" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HgMxoDShnDDKPaFFmQN0-7" value="shenyu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-7" value="shenyu" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="80" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HgMxoDShnDDKPaFFmQN0-8" value="ZkSyncDataConfiguration#启动类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-8" value="ZkSyncDataConfiguration#启动类" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="200" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HgMxoDShnDDKPaFFmQN0-9" value="ZkSyncDataService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-9" value="ZkSyncDataService" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="320" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HgMxoDShnDDKPaFFmQN0-10" value="构造函数中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-10" value="构造函数中" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="480" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HgMxoDShnDDKPaFFmQN0-11" value="判断数据是否是初次" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-11" value="判断数据是否是初次" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="720" width="190" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="HgMxoDShnDDKPaFFmQN0-12" value="如果有数据变化使用事件发布模式&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-12" value="如果有数据变化使用事件发布模式&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="880" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HgMxoDShnDDKPaFFmQN0-13" value="ApplicationEventPublisher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-13" value="ApplicationEventPublisher" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="1000" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HgMxoDShnDDKPaFFmQN0-14" value="watchData（）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-14" value="watchData（）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="680" y="600" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HgMxoDShnDDKPaFFmQN0-15" value="watchAppAuth（）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-15" value="watchAppAuth（）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1000" y="600" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HgMxoDShnDDKPaFFmQN0-16" value="watchMetaData（）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-16" value="watchMetaData（）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1280" y="600" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HgMxoDShnDDKPaFFmQN0-17" value="watchAll（pluginName）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-17" value="watchAll（pluginName）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="720" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HgMxoDShnDDKPaFFmQN0-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1000" y="720" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HgMxoDShnDDKPaFFmQN0-19" value="watchPlugin(pluginName)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-19" value="watchPlugin(pluginName)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="840" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HgMxoDShnDDKPaFFmQN0-20" value="watchSelector(pluginName)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-20" value="watchSelector(pluginName)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="940" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HgMxoDShnDDKPaFFmQN0-21" value="watchRule(pluginName)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HgMxoDShnDDKPaFFmQN0-21" value="watchRule(pluginName)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="1040" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0d-qnT31Auj9CADLTtod-1" value="WebsocketLister" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="360" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0d-qnT31Auj9CADLTtod-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="0d-qnT31Auj9CADLTtod-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0d-qnT31Auj9CADLTtod-2" value="WebsocketDataChangeListener" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="480" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0d-qnT31Auj9CADLTtod-3" value="DataChangedListener" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="480" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0d-qnT31Auj9CADLTtod-4" value="ZookeeperListener" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
