@@ -1,73 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2021-09-03T10:00:58.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="QctbDgI2wdSGXQuEjAtp" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-04T07:06:12.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="PhpJorvbsqoUYa9Br7Qu" version="15.0.6" type="github">
   <diagram id="PjwngNjyKslsj0M1fMmS" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lGOCdb_oi6FCQJILwrm9-1" target="lGOCdb_oi6FCQJILwrm9-2">
+        <mxCell id="lGOCdb_oi6FCQJILwrm9-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lGOCdb_oi6FCQJILwrm9-1" target="lGOCdb_oi6FCQJILwrm9-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lGOCdb_oi6FCQJILwrm9-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="371.25" y="20" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lGOCdb_oi6FCQJILwrm9-2" target="lGOCdb_oi6FCQJILwrm9-3">
+        <mxCell id="lGOCdb_oi6FCQJILwrm9-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lGOCdb_oi6FCQJILwrm9-2" target="lGOCdb_oi6FCQJILwrm9-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-2" value="从主数据MQ中获取数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lGOCdb_oi6FCQJILwrm9-2" value="从主数据MQ中获取数据不同tag" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="336.25" y="160" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lGOCdb_oi6FCQJILwrm9-3" target="lGOCdb_oi6FCQJILwrm9-11">
+        <mxCell id="lGOCdb_oi6FCQJILwrm9-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lGOCdb_oi6FCQJILwrm9-3" target="lGOCdb_oi6FCQJILwrm9-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-3" value="过来的数据都是门店type=1，需要注意主数据来的是啥" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lGOCdb_oi6FCQJILwrm9-3" value="过来的数据类型需要注意主数据来的是啥" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="331.25" y="280" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lGOCdb_oi6FCQJILwrm9-6" target="lGOCdb_oi6FCQJILwrm9-8">
+        <mxCell id="lGOCdb_oi6FCQJILwrm9-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lGOCdb_oi6FCQJILwrm9-6" target="lGOCdb_oi6FCQJILwrm9-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-6" value="编码就是excel中 门店ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lGOCdb_oi6FCQJILwrm9-6" value="编码就是excel中 门店ID" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="520" width="202.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lGOCdb_oi6FCQJILwrm9-7">
+        <mxCell id="lGOCdb_oi6FCQJILwrm9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lGOCdb_oi6FCQJILwrm9-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="430.25" y="950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-7" value="找到excel中供货商编码就是parnt_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lGOCdb_oi6FCQJILwrm9-7" value="找到excel中供货商编码就是parnt_id" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="329.25" y="780" width="202" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lGOCdb_oi6FCQJILwrm9-8" target="lGOCdb_oi6FCQJILwrm9-7">
+        <mxCell id="lGOCdb_oi6FCQJILwrm9-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lGOCdb_oi6FCQJILwrm9-8" target="lGOCdb_oi6FCQJILwrm9-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lGOCdb_oi6FCQJILwrm9-8" target="lGOCdb_oi6FCQJILwrm9-14">
+        <mxCell id="lGOCdb_oi6FCQJILwrm9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lGOCdb_oi6FCQJILwrm9-8" target="lGOCdb_oi6FCQJILwrm9-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-8" value="判断是否是xmg的数据" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lGOCdb_oi6FCQJILwrm9-8" value="判断是否是xmg的数据" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="358.75" y="640" width="145" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lGOCdb_oi6FCQJILwrm9-11" target="lGOCdb_oi6FCQJILwrm9-6">
+        <mxCell id="lGOCdb_oi6FCQJILwrm9-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lGOCdb_oi6FCQJILwrm9-11" target="lGOCdb_oi6FCQJILwrm9-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-11" value="通过市场区域确定市场区域字段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lGOCdb_oi6FCQJILwrm9-11" value="通过市场区域确定市场区域字段" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="331.25" y="400" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="lGOCdb_oi6FCQJILwrm9-14" target="lGOCdb_oi6FCQJILwrm9-24">
+        <mxCell id="lGOCdb_oi6FCQJILwrm9-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="lGOCdb_oi6FCQJILwrm9-14" target="lGOCdb_oi6FCQJILwrm9-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="168" y="1005" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-14" value="分销商、门店关系" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lGOCdb_oi6FCQJILwrm9-14" value="分销商、门店关系" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="780" width="155" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lGOCdb_oi6FCQJILwrm9-24" target="lGOCdb_oi6FCQJILwrm9-27">
+        <mxCell id="lGOCdb_oi6FCQJILwrm9-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lGOCdb_oi6FCQJILwrm9-24" target="lGOCdb_oi6FCQJILwrm9-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-24" value="入库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lGOCdb_oi6FCQJILwrm9-24" value="入库" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="266.25" y="960" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-27" value="return" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lGOCdb_oi6FCQJILwrm9-27" value="return" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="336.25" y="1110" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
