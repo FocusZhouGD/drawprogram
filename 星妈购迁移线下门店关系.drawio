@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-04T07:06:12.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="PhpJorvbsqoUYa9Br7Qu" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-04T07:13:45.826Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="_6hWPlqBR56IiW3KPZfd" version="15.0.6" type="github">
   <diagram id="PjwngNjyKslsj0M1fMmS" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,11 +22,11 @@
         <mxCell id="lGOCdb_oi6FCQJILwrm9-3" value="过来的数据类型需要注意主数据来的是啥" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="331.25" y="280" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lGOCdb_oi6FCQJILwrm9-6" target="lGOCdb_oi6FCQJILwrm9-8" edge="1">
+        <mxCell id="vSa-zCnCoZ4iDgvjvJ0Z-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lGOCdb_oi6FCQJILwrm9-6" target="lGOCdb_oi6FCQJILwrm9-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lGOCdb_oi6FCQJILwrm9-6" value="编码就是excel中 门店ID" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="520" width="202.5" height="60" as="geometry" />
+          <mxGeometry x="330" y="680" width="202.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lGOCdb_oi6FCQJILwrm9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lGOCdb_oi6FCQJILwrm9-7" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -34,18 +34,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lGOCdb_oi6FCQJILwrm9-7" value="找到excel中供货商编码就是parnt_id" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="329.25" y="780" width="202" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lGOCdb_oi6FCQJILwrm9-8" target="lGOCdb_oi6FCQJILwrm9-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="329.25" y="820" width="202" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lGOCdb_oi6FCQJILwrm9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lGOCdb_oi6FCQJILwrm9-8" target="lGOCdb_oi6FCQJILwrm9-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-8" value="判断是否是xmg的数据" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="358.75" y="640" width="145" height="80" as="geometry" />
+        <mxCell id="vSa-zCnCoZ4iDgvjvJ0Z-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lGOCdb_oi6FCQJILwrm9-8" target="lGOCdb_oi6FCQJILwrm9-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lGOCdb_oi6FCQJILwrm9-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="lGOCdb_oi6FCQJILwrm9-11" target="lGOCdb_oi6FCQJILwrm9-6" edge="1">
+        <mxCell id="lGOCdb_oi6FCQJILwrm9-8" value="判断是否是xmg的数据" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="358.75" y="545" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vSa-zCnCoZ4iDgvjvJ0Z-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lGOCdb_oi6FCQJILwrm9-11" target="lGOCdb_oi6FCQJILwrm9-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lGOCdb_oi6FCQJILwrm9-11" value="通过市场区域确定市场区域字段" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
