@@ -1,11 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T05:22:58.540Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="dfLWn2VwE5sTNnKcTaOn" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-16T03:01:01.551Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="KpgYiHSxf4Cb1_snDY_7" version="20.3.0" type="github">
   <diagram id="6MDGVy0Xh-Wl0Co4Ky15" name="第 1 页">
-    <mxGraphModel dx="1550" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="X3gSlujnUocJ61u003vv-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X3gSlujnUocJ61u003vv-2" value="根据用户勾选的口腔问题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3gSlujnUocJ61u003vv-3" value="用户是否勾选口腔问题" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X3gSlujnUocJ61u003vv-4" value="找出所有就诊状态id口腔问题最多的前四项&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3gSlujnUocJ61u003vv-6" value="QueryClinicDiseaseCustomDto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="480" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3gSlujnUocJ61u003vv-7" value="&lt;div&gt;private String problemId;&lt;/div&gt;&lt;div&gt;private Integer conNum;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="540" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3gSlujnUocJ61u003vv-9" value="ImageOralProblemsDto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="680" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X3gSlujnUocJ61u003vv-10" value="/** 口腔问题名称 */&#xa;     private String lable;&#xa;    /** 含有该口腔问题的就诊状态数量 */&#xa;    private Integer count;&#xa;    /** 发现数量 */&#xa;    private Integer problemsCount;&#xa;    /** 发现数量-单位 */&#xa;    private String problemsCountUnit;&#xa;    /** 患有口腔问题的牙号 */&#xa;    private List&lt;String&gt; tooths;&#xa;    /** 治疗数量 */&#xa;    private String cureCount;&#xa;    /** 口腔问题治疗单价 */&#xa;    private Integer unitPrice;&#xa;    /** 饼形图中的百分数 */&#xa;    private String per;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="740" width="230" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="X3gSlujnUocJ61u003vv-11" value="得到口腔问题id集合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
