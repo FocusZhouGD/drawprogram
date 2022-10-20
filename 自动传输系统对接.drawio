@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T08:44:30.258Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.4.2" etag="wTYsGeWwI1jpIbTxp0EU" type="github"><diagram id="0uF88qrrJIsZdChHyWDg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-20T09:07:07.466Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="IddIXGYc4vEhYQucPoRr" version="20.4.2" type="github">
+  <diagram id="0uF88qrrJIsZdChHyWDg" name="第 1 页">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lVQHTALBccKQVXWC6iIf-3" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;strokeWidth=6;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="lVQHTALBccKQVXWC6iIf-1" target="lVQHTALBccKQVXWC6iIf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lVQHTALBccKQVXWC6iIf-1" value="客户姓名、手机号、病例号、影像传输时间。诊所id或者用户信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lVQHTALBccKQVXWC6iIf-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="lVQHTALBccKQVXWC6iIf-2" target="lVQHTALBccKQVXWC6iIf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lVQHTALBccKQVXWC6iIf-2" value="AI牙医系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lVQHTALBccKQVXWC6iIf-4" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lVQHTALBccKQVXWC6iIf-6" value="根据患者信息匹配档案数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lVQHTALBccKQVXWC6iIf-9" value="判断患者信息命中哪个规则" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="386" y="640" width="148" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lVQHTALBccKQVXWC6iIf-10" value="患者姓名+病例号" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lVQHTALBccKQVXWC6iIf-11" value="患者姓名+手机号" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lVQHTALBccKQVXWC6iIf-12" value="患者姓名+出生日期+性别" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lVQHTALBccKQVXWC6iIf-14" value="如果出现多个数据如何处理？" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="800" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lVQHTALBccKQVXWC6iIf-15" value="或的关系？" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="855" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lVQHTALBccKQVXWC6iIf-16" value="如果全部匹配" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lVQHTALBccKQVXWC6iIf-17" value="随机选择一个" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lVQHTALBccKQVXWC6iIf-18" value="如果没有匹配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lVQHTALBccKQVXWC6iIf-19" value="系统自动创建一个档案" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
