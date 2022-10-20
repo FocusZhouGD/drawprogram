@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T09:50:07.986Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="0wXQtvQYnJGacfhW6bj3" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-20T09:53:34.502Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="fC3lbpnDa1dNJjW4d2UB" version="20.4.2" type="github">
   <diagram id="0uF88qrrJIsZdChHyWDg" name="第 1 页">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,22 +41,22 @@
           <mxGeometry x="810" y="855" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lVQHTALBccKQVXWC6iIf-16" value="如果全部匹配" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="400" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="1020" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lVQHTALBccKQVXWC6iIf-17" value="随机选择一个档案" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="630" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="600" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lVQHTALBccKQVXWC6iIf-18" value="如果没有匹配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="400" y="1120" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="1020" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lVQHTALBccKQVXWC6iIf-19" value="系统自动创建一个档案" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="400" y="1280" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lVQHTALBccKQVXWC6iIf-20" value="未命名客户1&lt;br&gt;手机号规则&lt;br&gt;性别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="1280" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="1290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lVQHTALBccKQVXWC6iIf-21" value="新建就诊状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="1280" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="1410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
